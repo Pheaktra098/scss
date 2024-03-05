@@ -1,0 +1,39 @@
+.container .new-section-2 {
+  width: 100%;
+  overflow: hidden;
+  background-color: #039;
+  margin-top: auto;
+}
+.container .new-section-2 .btn-shape {
+  width: -moz-fit-content;
+  width: -webkit-fit-content;
+  width: fit-content;
+  position: absolute;
+  background-color: #ce0a0a;
+  font-size: 14px;
+  color: #fff;
+  height: 40px;
+  padding: 0 12px;
+  margin-right: 20px;
+  position: relative;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container .new-section-2 .btn-shape:before {
+  background-color: #ce0a0a;
+  content: "";
+  position: absolute;
+  display: inline-block;
+  right: -15px;
+  top: -5;
+  width: 30px;
+  height: 40px;
+  transform: skew(29deg);
+  z-index: -1;
+}
+.container .new-section-2 .btn-shape h1 {
+  font-size: 14px;
+  font-family: Poppins, sans-serif, Moul, cursive;
+}/*# sourceMappingURL=new-section-2.css.map */

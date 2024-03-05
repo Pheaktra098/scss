@@ -1,0 +1,77 @@
+$color_1: #fff;
+$background-color_1: #039;
+
+.footer {
+	background-color: $background-color_1;
+	color: $color_1;
+	.footer-wrapper-row {
+		padding: 2rem 0;
+		display: flex;
+		justify-content: space-between;
+	}
+	.footer-wrapper-row-item {
+		.head {
+			h2 {
+				font-size: 1.3rem;
+				color: $color_1;
+				font-weight: 700;
+			}
+		}
+		.body {
+			.social-media {
+				display: grid;
+				gap: 1rem;
+				width: -moz-fit-content;
+				width: fit-content;
+				.btn {
+					display: flex;
+					place-items: center;
+					cursor: pointer;
+					padding: 0;
+					font-size: 18px;
+					color: $color_1;
+					img {
+						width: 1.3rem;
+						height: 1.3rem;
+						transition: .5s;
+					}
+				}
+			}
+			.download {
+				display: grid;
+				width: -moz-fit-content;
+				width: fit-content !important;
+			}
+			.flex-col {
+				flex-direction: column;
+			}
+			.flex {
+				display: flex;
+			}
+			.download-app {
+				img {
+					cursor: pointer;
+					width: 150px;
+					height: 48px;
+				}
+			}
+			iframe.map {
+				height: 180px !important;
+			}
+			margin-top: 1rem;
+			box-sizing: border-box;
+		}
+	}
+}
+.w-\[40\%\] {
+	width: 40%;
+}
+.w-\[15\%\] {
+	width: 15%;
+}
+.w-\[20\%\] {
+	width: 20%;
+}
+.w-\[25\%\] {
+	width: 25%;
+}

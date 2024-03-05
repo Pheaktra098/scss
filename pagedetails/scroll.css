@@ -1,0 +1,26 @@
+.scroll-top.reveal {
+  opacity: 1;
+}
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  z-index: 99;
+  border: none;
+  outline: none;
+  transition: all 0.5s ease 0s;
+  -webkit-backdrop-filter: blur(4px);
+          backdrop-filter: blur(4px);
+  background: rgba(242, 182, 29, 0.1);
+  color: white;
+  cursor: pointer;
+  padding: 13px;
+  box-shadow: rgba(17, 17, 26, 0.1019607843) 0 1px, rgba(17, 17, 26, 0.1019607843) 0 8px 24px, rgba(17, 17, 26, 0.1019607843) 0 16px 48px;
+  cursor: hand;
+  border-radius: 10px;
+}
+#myBtn svg {
+  color: #ffb800;
+}/*# sourceMappingURL=scroll.css.map */

@@ -1,0 +1,121 @@
+.menu-bar {
+  background-color: #ce0a0a;
+}
+.menu-bar .container .menu {
+  width: 100%;
+  height: 60px;
+  display: grid;
+  grid-auto-flow: column;
+  gap: 1rem;
+}
+.menu-bar .container .menu-item {
+  font-family: Poppins, sans-serif, Moul, cursive;
+  color: #fff;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 5px;
+  font-family: Poppins, sans-serif, Moul, cursive;
+  color: #fff;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 5px;
+}
+.menu-bar .container .menu-item:hover {
+  color: #039;
+  background-color: #fff;
+  height: 100%;
+}
+.menu-bar .container .menu-item:hover .dropdown-menu {
+  opacity: 1;
+  display: block;
+  visibility: visible;
+  transform: translateY(0);
+}
+.menu-bar .container .menu-item .flex a {
+  font-family: Poppins, sans-serif, Moul, cursive;
+}
+.menu-bar .container .menu-item .dropdown-menu {
+  position: absolute;
+  top: 60px;
+  left: 0;
+  z-index: 10;
+  text-align: left;
+  width: 250px;
+  background: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1019607843);
+  padding: 1rem;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.1s ease;
+  right: 0px !important;
+  left: unset !important;
+}
+.menu-bar .container .menu-item .dropdown-menu .menu-item {
+  position: relative;
+  transition: all 0.5s ease;
+  color: #231f20;
+  font-weight: 400;
+  padding: 0;
+  font-size: 14px;
+}
+.menu-bar .container .menu-item .dropdown-menu .menu-item:hover {
+  color: #039;
+  padding-left: 0.3rem;
+}
+.menu-bar .container .menu-item .dropdown-menu .menu-item a {
+  font-family: Poppins, sans-serif, Moul, cursive;
+  padding: unset;
+  font-weight: 400;
+}
+.menu-bar .container .menu-item .dropdown-menu .menu-item.active {
+  color: #039;
+  padding-left: 0.3rem;
+}
+.menu-bar .container .menu-item.active {
+  color: #039;
+  background-color: #fff;
+  height: 100%;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.flex {
+  display: flex;
+}
+
+.aLink {
+  text-decoration: none !important;
+  color: unset;
+  width: unset;
+  height: unset;
+  margin: 0;
+  padding: 0;
+  text-decoration: none !important;
+  color: unset;
+  width: unset;
+  height: unset;
+  margin: 0;
+  padding: 0;
+}
+
+.relative {
+  position: relative;
+}
+
+.gap-4 {
+  gap: 1rem !important;
+}
+
+.place-items-start {
+  place-items: start;
+}
+
+.grid {
+  display: grid;
+}/*# sourceMappingURL=menu-bar.css.map */

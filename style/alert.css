@@ -1,0 +1,9 @@
+.alert {
+  position: relative;
+}
+
+.btn-close {
+  position: absolute;
+  top: 0;
+  right: 0;
+}/*# sourceMappingURL=alert.css.map */

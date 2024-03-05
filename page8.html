@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="en" class="h-100">
+
+<head>
+    <link rel="stylesheet" href="assetcssfile/detailStyle.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" href="https://moitv.phsartech.com/images/logo/navigator.jpg">
+    <title>Moi Tv </title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+        integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+        integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous">
+    </script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Ionicons -->
+    <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+    <!-- Tempusdominus Bootstrap 4 -->
+    <link rel="stylesheet"
+        href="assets/plugins/tempusdominus-bootstrap-4/css/tempusdominus-bootstrap-4.min.css">
+    
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="pagestyle/manu.css">
+
+
+</head>
+
+<body class=" " data-aos-easing="ease" data-aos-duration="400" data-aos-delay="0" style="overflow: auto;">
+    <!-- navbar -->
+    <section>
+        <!-- navbar -->
+    <div class="navbar p-0">
+        <div class="container p-0">
+            <div class="logo-media isFixed" id="logo-media">
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="https://moitv.phsartech.com/images/logo/website-logo.png" alt="">
+                    </a>
+                </div>
+                <div class="social-media">
+                    <div class="media-icon">
+                        <a target="blank" class="media-icon-item" href="#">
+                            <img
+                                src="https://moitv.phsartech.com/file_manager/facebook-c4080575-6b89-4024-aad3-7fadc0e2e734.png">
+                        </a>
+                        <a target="blank" class="media-icon-item" href="#">
+                            <img
+                                src="https://moitv.phsartech.com/file_manager/instagram-330bbb3f-e713-403e-81ef-0efd7c439745.png">
+                        </a>
+                        <a target="blank" class="media-icon-item" href="#">
+                            <img
+                                src="https://moitv.phsartech.com/file_manager/telegram-c4a6584a-fba8-47f8-a7c4-44a32aa9f2c6.png">
+                        </a>
+                        <a target="blank" class="media-icon-item" href="#">
+                            <img
+                                src="https://moitv.phsartech.com/file_manager/twitter-309f2b7f-c337-4501-b655-64a326eda408.png">
+                        </a>
+                        <a target="blank" class="media-icon-item" href="#">
+                            <img
+                                src="https://moitv.phsartech.com/file_manager/youtube-9b3fa791-5756-4468-8b8f-63ce3994f61f.png">
+                        </a>
+                    </div>
+                    <div class="search">
+                        <form action="#" method="">
+                            <input type="text" name="search" value="" placeholder="ស្វែងរក..." required>
+                            <button type="submit">
+                                <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="px" width="25" height="30"
+                                    viewBox="0,0,256,256">
+                                    <g transform="translate(12.8,12.8) scale(0.9,0.9)">
+                                        <g fill="#755cfa" fill-rule="nonzero" stroke="none" stroke-width="1"
+                                            stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10"
+                                            stroke-dasharray="" stroke-dashoffset="0" font-family="none"
+                                            font-weight="none" font-size="none" text-anchor="none"
+                                            style="mix-blend-mode: normal">
+                                            <g transform="scale(5.33333,5.33333)">
+                                                <path
+                                                    d="M20.5,6c-7.98444,0 -14.5,6.51556 -14.5,14.5c0,7.98444 6.51556,14.5 14.5,14.5c3.27316,0 6.28892,-1.10698 8.7207,-2.94922l9.36523,9.36328c0.50163,0.52248 1.24653,0.73295 1.94742,0.55024c0.70088,-0.18271 1.24823,-0.73006 1.43094,-1.43094c0.18271,-0.70088 -0.02776,-1.44578 -0.55024,-1.94742l-9.36328,-9.36523c1.84224,-2.43179 2.94922,-5.44755 2.94922,-8.7207c0,-7.98444 -6.51556,-14.5 -14.5,-14.5zM20.5,10c5.82269,0 10.5,4.67732 10.5,10.5c0,2.79571 -1.08593,5.3206 -2.85156,7.19727c-0.17187,0.12442 -0.32284,0.2754 -0.44727,0.44727c-1.87707,1.76787 -4.40346,2.85547 -7.20117,2.85547c-5.82268,0 -10.5,-4.67732 -10.5,-10.5c0,-5.82268 4.67732,-10.5 10.5,-10.5z">
+                                                </path>
+                                            </g>
+                                        </g>
+                                    </g>
+                                </svg>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+                <div class="menu-icon">
+                    <i class="fa fa-bars" onclick="removeClass()"></i>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- menu ber -->
+    <div class="menu-bar isFixed" id="menu-bar">
+        <div class="container ">
+            <div class="menu  ">
+                <a href="index.html" class="menu-item relative">ទំព័រដើម</a>
+                <a href="page2.html" class="menu-item relative ">
+                    ព័ត៌មានថ្មីបំផុត
+                </a>
+                <a href="page3.html" class="menu-item relative">
+                    សារព័ត៌មានប្រចាំថ្ងៃ
+                </a>
+                <a href="page4.html" class="menu-item relative">
+                    សកម្មភាពថ្នាក់ដឹកនាំ
+                </a>
+                <a href="page5.html" class="menu-item relative">
+                    សន្ដិសុខសង្គម
+                </a>
+                <a href="page6.html" class="menu-item relative">
+                    វគ្គបណ្តុះបណ្តាល
+                </a>
+                <div class="menu-item relative  active">
+                    <div class="flex items-center">
+                        <a class="aLink">
+                            ផ្សេងៗ
+                        </a>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="feather feather-chevron-down h-4 w-auto ml-1">
+                            <polyline points="6 9 12 15 18 9"></polyline>
+                        </svg>
+                    </div>
+                    <div class="dropdown-menu !left-[unset] !right-0">
+                        <div class="grid gap-4 place-items-start shadow-border">
+                            <div class="menu-item ">
+                                <a class="aLink" href="page7.html">
+                                    នគរបាល​ និង​ សហគមន៍
+                                </a>
+                            </div>
+                            <div class="menu-item  active">
+                                <a class="aLink" href="page8.html">
+                                    ប្រយុទ្ធប្រឆាំងគ្រឿងញៀន
+                                </a>
+                            </div>
+                            <div class="menu-item">
+                                <a class="aLink" href="page9.html">
+                                    សណ្ដាប់ធ្នាប់ និងចរាចរណ៍
+                                </a>
+                            </div>
+                            <div class="menu-item">
+                                <a class="aLink" href="page10.html">
+                                    វេទិការពលរដ្ឋ និង នគរបាល
+                                </a>
+                            </div>
+                            <div class="menu-item">
+                                <a class="aLink" href="page11.html">
+                                    ទស្សនាវដ្ដី
+                                </a>
+                            </div>
+                            <div class="menu-item">
+                                <a class="aLink" href="page12.html">
+                                    វីឌីអូ
+                                </a>
+                            </div>
+                            <div class="menu-item">
+                                <a class="aLink" href="page13.html">
+                                    វិទ្យុ
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="social-icon">
+                <div class="media-icon">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-telegram"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-youtube"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- menu-responsive -->
+    <div class="menu-responsive menu-active" id="menu-responsive">
+        <div class="header">
+            <div onclick="addClass()">
+                <span> <i class="fa fa-xmark"></i></span>
+            </div>
+
+            <div class="logo">
+                <a href="index.html">
+                    <img src="https://moitv.phsartech.com/images/logo/website-logo.png" alt="">
+                </a>
+            </div>
+        </div>
+        <div class="menu-content ">
+            <div class="search">
+                <form action="" method="GET">
+                    <input type="text" name="search" value="" placeholder="search..." required="">
+                    <button type="submit">
+                        <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="px" width="25" height="30"
+                            viewBox="0,0,256,256">
+                            <g transform="translate(12.8,12.8) scale(0.9,0.9)">
+                                <g fill="#755cfa" fill-rule="nonzero" stroke="none" stroke-width="1"
+                                    stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10"
+                                    stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none"
+                                    font-size="none" text-anchor="none" style="mix-blend-mode: normal">
+                                    <g transform="scale(5.33333,5.33333)">
+                                        <path
+                                            d="M20.5,6c-7.98444,0 -14.5,6.51556 -14.5,14.5c0,7.98444 6.51556,14.5 14.5,14.5c3.27316,0 6.28892,-1.10698 8.7207,-2.94922l9.36523,9.36328c0.50163,0.52248 1.24653,0.73295 1.94742,0.55024c0.70088,-0.18271 1.24823,-0.73006 1.43094,-1.43094c0.18271,-0.70088 -0.02776,-1.44578 -0.55024,-1.94742l-9.36328,-9.36523c1.84224,-2.43179 2.94922,-5.44755 2.94922,-8.7207c0,-7.98444 -6.51556,-14.5 -14.5,-14.5zM20.5,10c5.82269,0 10.5,4.67732 10.5,10.5c0,2.79571 -1.08593,5.3206 -2.85156,7.19727c-0.17187,0.12442 -0.32284,0.2754 -0.44727,0.44727c-1.87707,1.76787 -4.40346,2.85547 -7.20117,2.85547c-5.82268,0 -10.5,-4.67732 -10.5,-10.5c0,-5.82268 4.67732,-10.5 10.5,-10.5z">
+                                        </path>
+                                    </g>
+                                </g>
+                            </g>
+                        </svg>
+                    </button>
+                </form>
+            </div>
+          
+        </div>
+    </div>
+
+    <div class="menu-responsive-cover menu-active" id="menu-responsive-cover" onclick="addClass()"></div>
+
+<script>
+/* script menu responsive */
+
+function toggleMenuResponsive() {
+    $('.menu-bar').toggleClass('menu-active');
+    $('.menu-responsive').toggleClass('menu-active');
+    $('.menu-responsive-cover').toggleClass('menu-active');
+
+    if ($('.menu-responsive-cover').hasClass('menu-active')) {
+        $('body').css({
+            'overflow': 'auto'
+        });
+    } else {
+        $('body').css({
+            'overflow': 'hidden'
+        });
+    }
+}
+
+function addClass() {
+document.getElementById("menu-bar").classList.add('menu-active');
+document.getElementById("menu-responsive").classList.add('menu-active');
+document.getElementById("menu-responsive-cover").classList.add('menu-active');
+}
+function removeClass() {
+  document.getElementById("menu-responsive").classList.remove('menu-active');
+  document.getElementById("menu-responsive-cover").classList.remove('menu-active');
+}
+</script>    </section>
+    <!-- content -->
+    <section>
+        <div x-data="share">
+            <!-- home-lider-catagory -->
+                <div class="container p-0">
+                    <div class="new-section list-page">
+                        <div class="item-1 !h-auto">    <!-- 
+<div class="img">
+    <img src="https://moitv.phsartech.com/file_manager/1(180)-a1906ab7-fb2e-4662-86f7-ad0d12438651.jpg" alt="">
+</div>
+<div class="title-box">
+    <span>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+            class="feather feather-calendar w-4 h-4 mr-1">
+            <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+            <line x1="16" y1="2" x2="16" y2="6"></line>
+            <line x1="8" y1="2" x2="8" y2="6"></line>
+            <line x1="3" y1="10" x2="21" y2="10"></line>
+        </svg>
+        ថ្ងៃសុក្រ ទី៩ ខែមិថុនា ឆ្នាំ២០២៣
+    </span>
+    <p>សម្ដេចក្រឡាហោម ស ខេង អនុញ្ញាតជូនឯកឧត្តម Jacques PELLET ឯកអគ្គរដ្ឋទូតសាធារណរដ្ឋបារាំង និងឯកឧត្តម Stefan
+        Messerer ឯកអគ្គរដ្ឋទូតសាធារណរដ្ឋសហព័ន្ធអាល្លឺម៉ង់ ប្រចាំនៅព្រះរាជាណាចក្រកម្ពុជា ចូលជួបពិភាក្សាការងារ </p>
+    <div class="btn-read-more">
+        <a href="http://127.0.0.1:8000/detail/54">
+            អានបន្ថែម
+        </a>
+    </div>
+</div> -->
+</div>
+                        <div class="sidebar-item">    <!-- 
+<div class="sidebar-section">
+    <div class="sidebar-item-box">
+        <a href="https://moitv.phsartech.com/news/detail/27">
+            <div class="img-item">
+                <img src="https://moitv.phsartech.com/file_manager/F01-64fa0a70-0b82-422f-957f-995e4406fa76.png"
+                    alt="">
+            </div>
+            <div class="title-box">
+                <p>សម្ដេចក្រឡាហោម ស ខេង ៖ ការអនុវត្តគោលនយោបាយ ភូមិ-ឃុំ-សង្កាត់ មានសុវត្ថិភាព
+                    ធ្វើឱ្យបទល្មើសមានការថយចុះ៩% </p>
+            </div>
+        </a>
+    </div>
+    <div class="sidebar-item-box">
+        <a href="https://moitv.phsartech.com/news/detail/22">
+            <div class="img-item">
+                <img src="https://moitv.phsartech.com/file_manager/21-cd8d4e03-8630-4c97-86d2-2f26b6477a63.png"
+                    alt="">
+            </div>
+            <div class="title-box">
+                <p>សម្ដេចក្រឡាហោម ស ខេង អញ្ជើញជាអធិបតីបូកសរុបលទ្ធផល នៃអង្គសន្និបាតត្រួតពិនិត្យលទ្ធផលការងារឆ្នាំ២០២២
+                    និងផ្តល់អនុសាសន៍លើកទិសដៅការងារឆ្នាំ២០២៣ របស់ក្រសួងមហាផ្ទៃ </p>
+            </div>
+        </a>
+    </div>
+</div> -->
+</div>
+                    </div>
+                    <!-- new by catagory -->
+                    <div class="list-page-item" x-data="share">    <div class="new-section-2">
+    <div class="btn-shape">
+        <h1 class="m-0">ប្រយុទ្ធប្រឆាំងគ្រឿងញៀន</h1>
+    </div>
+</div>
+<div class="empty-data ">
+    <div class="image" >
+        <img src="https://moitv.phsartech.com/images/news.svg" alt="">
+    </div>
+    <div class="text">
+        <h1>មិនមានទិន្នន័យទេ</h1>
+        <p>មិនទាន់មានទិន្នន័យ ដើម្បីបង្ហាញនៅក្នុងទំព័រនេះនៅឡើយទេ</p>
+    </div>
+</div>
+</div>
+                </div>
+ 
+        </div>
+        <script type="module">
+            new Swiper(".mySwiper", {
+                spaceBetween: 30,
+                effect: "fade",
+                speed: 1000,
+                loop: true,
+                // autoplay: {
+                //     delay: 3000,
+                //     disableOnInteraction: false,
+                // },
+                pagination: {
+                    el: ".swiper-pagination",
+                    clickable: true,
+                },
+            });
+
+            var mySlider = new Swiper(".mySlider", {
+                spaceBetween: 5,
+                slidesPerView: 5,
+                direction: "vertical",
+                speed: 1000,
+                autoplay: {
+                    delay: 3000,
+                    disableOnInteraction: false,
+                },
+                navigation: {
+                    nextEl: ".swiper-button-next",
+                    prevEl: ".swiper-button-prev",
+                },
+            });
+
+            mySlider.on("slideChange", function() {
+                let nextBtn = document.querySelector("#btn-next");
+                let prevBtn = document.querySelector("#btn-prev");
+
+                if (!mySlider.isEnd && !mySlider.isBeginning) {
+                    prevBtn.style.display = "flex";
+                    nextBtn.style.display = "none";
+                }
+
+                if (mySlider.isEnd) {
+                    prevBtn.style.display = "none";
+                    nextBtn.style.display = "flex";
+                }
+            });
+
+            Alpine.data("share", () => ({
+                shareDialog: false,
+                shareUrl: null,
+                facebookUrl: null,
+                telegramUrl: null,
+                twitterUrl: null,
+                urlCurrent: "https:\/\/moitv.phsartech.com",
+
+                toggleShareModal(url) {
+                    this.shareDialog = !this.shareDialog;
+                    this.shareUrl = url ?? this.urlCurrent;
+                    document.body.classList.toggle('overflow-hidden');
+                    document.querySelector('.shareUrlToSocialMedia').value = this.shareUrl;
+                    this.facebookUrl = `https://www.facebook.com/sharer/sharer.php?u=${this.shareUrl}`;
+                    this.telegramUrl = `https://telegram.me/share/url?url=${this.shareUrl}`;
+                    this.twitterUrl = `https://twitter.com/intent/tweet?text=${this.shareUrl}`;
+                },
+            }));
+        </script>
+    </section>
+    <!-- button scoll top -->
+    <!-- <button type="button" class="btn scroll-top reveal" onclick="topFunction()" id="toTop">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevrons-up"><polyline points="17 11 12 6 7 11"></polyline><polyline points="17 18 12 13 7 18"></polyline></svg>
+    </button> -->
+    <button onclick="topFunction()" id="myBtn" title="Go to top">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevrons-up"><polyline points="17 11 12 6 7 11"></polyline><polyline points="17 18 12 13 7 18"></polyline></svg>
+    </button>
+
+    <!-- footer -->
+    <section>
+            <div class="footer">
+    <div class="footer-wrapper container p-0">
+        <div class="footer-wrapper-row">
+            <div class="footer-wrapper-row-item w-[40%] !text-left">
+                <div class="head">
+                    <h2>ទំនាក់ទំនង</h2>
+                </div>
+                <div class="body">
+                    <p class="m-0">
+                        #275, Norodom Blvd, Sangkat Tonle Bassac, Khan Chamkarmon, Phnom Penh, Cambodia.
+                    </p>
+                    <p class="d-flex">
+                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAAA3UlEQVR4nO2SPQoCMRBGRTtBe2H1CsKCZ1AQPIGdXsEjeAVbSxvBUwiCZzCr/Qp2SponC7MwuGH/XNBiBz4SMsn3ksk0GnX8TQBLIATslwqBhQtwrcDcigIXoAdsKzA/AH0XoCPjDDAljE10Vnt9Am7AXOZtYA08cxi/gI264BS4uAD6iQNZGwLHFPMzMFIl3sW5NECkB7ACWkDT0WGu/F17ZAFinQBf8h6wF3my5suexNm8AKtq3FV7M/+oCMDqLsnbZWUAtohqgC1ToqDCPzAuwKQiiAHGCUAdP4s3H4Ss0rQOMJcAAAAASUVORK5CYII=">
+                        &nbsp;&nbsp;info@moinews.gov.kh
+                    </p>
+                    <div class="d-flex">
+                    <img class="d-flex" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAABEklEQVR4nN3UvStFYRwH8MOgS2wmSXdSsigDg8FiYzbZZND9ExhlUGZlpAyWO+iWDCZl85LCIMlopLwsH916bp1O95yc7qPkV7/pOX0/Pd86T5L8i0Ef9nGH+9TeYCwGMImvnF2JAQwVAFsxgG685ABnHQMBaeQA7xiMAawX1DQTA5jICT9oVtgxEJDLTPgxKlHCA7CcCv9ENVp4AHpwm0Lq6IqNzGdqWosKBGQ3BXxgKTYwgKsMstrmuyq2MYfessgInjJ17bSCMIrH1NkbrnGI6Z8i45mQ5j6ghueCH7NR5ibDuCgIa7cnZeuqYCO8S/GB1mAKp78GtAaz2MNrDlBPYgz6sYBNHOE8vGeLUYA/Md9vxJeSyeqwegAAAABJRU5ErkJggg==">
+                        &nbsp;&nbsp;85852555
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-wrapper-row-item w-[15%]">
+                <div class="head">
+                    <h2>បណ្ដាញសង្គម</h2>
+                </div>
+                <div class="body">
+                    <div class="social-media">
+                        <a target="_blank" href="" class="btn">
+                            <img
+                                src="https://moitv.phsartech.com/file_manager//facebook-c4080575-6b89-4024-aad3-7fadc0e2e734.png">
+                            &nbsp; Facebook
+                        </a>
+                        <a target="_blank" href="" class="btn">
+                            <img
+                                src="https://moitv.phsartech.com/file_manager//instagram-330bbb3f-e713-403e-81ef-0efd7c439745.png">
+                            &nbsp; Instagram
+                        </a>
+                        <a target="_blank" href="" class="btn ">
+                            <img
+                                src="https://moitv.phsartech.com/file_manager//telegram-c4a6584a-fba8-47f8-a7c4-44a32aa9f2c6.png">
+                            &nbsp; Telegram
+                        </a>
+                        <a target="_blank" href="" class="btn">
+                            <img
+                                src="https://moitv.phsartech.com/file_manager//twitter-309f2b7f-c337-4501-b655-64a326eda408.png">
+                            &nbsp; Twitter
+                        </a>
+                        <a target="_blank" href="" class="btn">
+                            <img
+                                src="https://moitv.phsartech.com/file_manager//youtube-9b3fa791-5756-4468-8b8f-63ce3994f61f.png">
+                            &nbsp; Youtube
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-wrapper-row-item w-[20%]">
+                <div class="head">
+                    <h2>ទាញយកកម្មវិធី</h2>
+                </div>
+                <div class="body">
+                    <div class="download flex flex-col space-y-4">
+                        <a target="__blank" href="https://apps.apple.com/kh/app/moi-news-cambodia/id1594639836"
+                            class="download-app">
+                            <img src="https://moitv.phsartech.com/images/ios.png" alt="">
+                        </a>
+                        <a target="__blank"
+                            href="https://play.google.com/store/apps/details?id=com.moinewscambodia.rout"
+                            class="download-app mt-3">
+                            <img src="https://moitv.phsartech.com/images/android.png" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-wrapper-row-item w-[25%] !text-left">
+                <div class="head">
+                    <h2>អាសយដ្ឋាន</h2>
+                </div>
+                <div class="body text-center">
+                    <iframe class="map" width="100%" height="100%"
+                        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15635.782715259422!2d104.887681!3d11.555752!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x310951ed9d2cf44d%3A0x241dc4823004ef9f!2sPHSAR%20TECH!5e0!3m2!1sen!2skh!4v1681725810922!5m2!1sen!2skh"
+                        style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+        <div class="footer-bottom">
+    <div class="container">
+        <p class="text-center m-0">© រក្សាសិទិ្ធគ្រប់យ៉ាងដោយ មហាផ្ទៃ TV ឆ្នាំ 2023</p>
+    </div>
+</div>  
+   </section>
+   
+</body>
+
+</html>

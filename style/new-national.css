@@ -1,0 +1,125 @@
+.container .new-national {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  margin-top: 1rem;
+}
+.container .new-national .item {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.2rem;
+  margin-bottom: 15px;
+}
+.container .new-national .item .box-item {
+  background-color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.0509803922) 0 6px 24px, rgba(0, 0, 0, 0.0784313725) 0 0 0 1px;
+  position: relative;
+  overflow: hidden;
+}
+.container .new-national .item .box-item .img-box {
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+  position: relative;
+}
+.container .new-national .item .box-item .img-box a {
+  cursor: pointer;
+}
+.container .new-national .item .box-item .img-box img {
+  width: 100%;
+  height: 100%;
+  transition: transform 0.5s;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+.container .new-national .item .box-item:hover a {
+  text-decoration: underline;
+}
+.container .new-national .item .box-item:hover .img-box img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+  transform: scale(1.1);
+}
+.container .new-national .item .box-item .text-description {
+  width: 100%;
+  padding: 15px;
+  display: grid;
+}
+.container .new-national .item .box-item .text-description a {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: initial;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  font-size: 18px;
+  color: #039;
+  cursor: pointer;
+}
+.container .new-national .item .box-item .text-description .date {
+  margin: 10px 0;
+  font-size: 14px;
+}
+.container .new-national .item .box-item .text-description .description {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: initial;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  font-size: 16px;
+}
+.container .new-national .item .box-item .text-description .btn-share {
+  display: flex;
+  justify-content: flex-end;
+  margin: 10px 0 0;
+}
+.container .new-national .item .box-item .text-description .btn-share button {
+  display: flex;
+  padding: 7px 10px;
+  border-radius: 3px;
+  font-size: 14px;
+  box-shadow: rgba(0, 0, 0, 0.0509803922) 0 6px 24px, rgba(0, 0, 0, 0.0784313725) 0 0 0 1px;
+  text-decoration: none;
+  border: 0;
+}
+.container .new-national .item .box-item .text-description .btn-share button svg {
+  margin-right: 5px;
+}
+.container .new-national .btn-more-page {
+  margin: 2rem;
+  text-align: center;
+}
+.container .new-national .btn-more-page a {
+  border-radius: 5px;
+  background-color: #fff;
+  padding: 8px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: -moz-fit-content;
+  width: -webkit-fit-content;
+  width: fit-content;
+  margin: 0 auto;
+  box-shadow: rgba(0, 0, 0, 0.1019607843) 0 4px 12px;
+}
+.container .new-national .btn-more-page a svg {
+  transition: all 0.3s ease-in-out;
+}
+
+button {
+  background-color: transparent;
+  background-image: none;
+  text-transform: none;
+  font-family: inherit;
+  font-size: 100%;
+  font-weight: inherit;
+  line-height: inherit;
+  color: inherit;
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+}/*# sourceMappingURL=new-national.css.map */

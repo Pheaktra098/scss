@@ -1,0 +1,138 @@
+$color_1: #fff;
+$color_2: #000;
+$color_3: #039;
+$color_4: #ce0a0a;
+$font-family_1: Poppins, sans-serif, Moul, cursive;
+$background-color_1: #039;
+$background-color_2: #f5f5f5;
+$background-color_3: #fff;
+
+.menu-responsive.menu-active {
+	right: -100%;
+	left: -100%;
+}
+.menu-responsive {
+	position: fixed;
+	top: 0;
+	z-index: 9999;
+	right: 0;
+	width: 80%;
+	height: 100%;
+	transition: .3s ease-in-out;
+	overflow-y: auto;
+	display: block;
+	.header {
+		width: 100%;
+		height: 90px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		background-color: $background-color_1;
+		position: relative;
+		span {
+			position: absolute;
+			top: 8px;
+			left: 14px;
+			i {
+				font-size: 2rem;
+				color: $color_1;
+			}
+		}
+		.logo {
+			a {
+				img {
+					width: 85px;
+					height: auto;
+					-o-object-fit: cover;
+					object-fit: cover;
+					max-width: 100%;
+				}
+			}
+		}
+	}
+	.menu-content {
+		width: 100%;
+		height: 100%;
+		overflow: hidden;
+		background-color: $background-color_2;
+		.search {
+			form {
+				background-color: $background-color_3;
+				display: flex;
+				align-items: center;
+				justify-content: space-between;
+				height: 50px;
+				width: 100%;
+				input {
+					border: none;
+					background: transparent;
+					padding: 15px;
+					font-size: 14px;
+					font-weight: 500;
+					color: $color_2;
+					width: 100%;
+					outline: none;
+				}
+				button {
+					background: transparent;
+					border: none;
+					outline: none;
+					cursor: pointer;
+					font-size: 14px;
+					font-weight: 500;
+					color: $color_3;
+					padding-right: 5px;
+				}
+			}
+		}
+		.menu {
+			display: grid;
+			grid-auto-flow: row;
+			gap: 5px;
+		}
+		.menu-item.active {
+			color: $color_4;
+		}
+		.menu-item {
+			font-family: $font-family_1;
+			display: flex;
+			gap: 8px;
+			align-items: center;
+			color: $color_2;
+			margin-left: 1rem;
+			border-bottom: 1px solid rgba(44, 96, 200, .2117647059);
+			padding: 10px 0;
+			border-bottom-style: dashed;
+		}
+	}
+}
+.fa-xmark {
+	&:before {
+		content: "\f00d";
+	}
+}
+img {
+	display: block;
+}
+svg {
+	display: block;
+}
+video {
+	display: block;
+}
+.menu-responsive-cover {
+	position: fixed;
+	left: 0;
+	top: 0;
+	display: block;
+	width: 100%;
+	height: 100%;
+	z-index: 999;
+	background: rgba(0,0,0,.44) !important;
+	box-shadow: 0 4px 30px #0000001a;
+	-webkit-backdrop-filter: blur(5px);
+	backdrop-filter: blur(5px);
+}
+.menu-responsive-cover.menu-active {
+	left: -100%;
+}

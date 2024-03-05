@@ -1,0 +1,74 @@
+.footer {
+  background-color: #039;
+  color: #fff;
+}
+.footer .footer-wrapper-row {
+  padding: 2rem 0;
+  display: flex;
+  justify-content: space-between;
+}
+.footer .footer-wrapper-row-item .head h2 {
+  font-size: 1.3rem;
+  color: #fff;
+  font-weight: 700;
+}
+.footer .footer-wrapper-row-item .body {
+  margin-top: 1rem;
+  box-sizing: border-box;
+}
+.footer .footer-wrapper-row-item .body .social-media {
+  display: grid;
+  gap: 1rem;
+  width: -moz-fit-content;
+  width: -webkit-fit-content;
+  width: fit-content;
+}
+.footer .footer-wrapper-row-item .body .social-media .btn {
+  display: flex;
+  place-items: center;
+  cursor: pointer;
+  padding: 0;
+  font-size: 18px;
+  color: #fff;
+}
+.footer .footer-wrapper-row-item .body .social-media .btn img {
+  width: 1.3rem;
+  height: 1.3rem;
+  transition: 0.5s;
+}
+.footer .footer-wrapper-row-item .body .download {
+  display: grid;
+  width: -moz-fit-content;
+  width: -webkit-fit-content !important;
+  width: fit-content !important;
+}
+.footer .footer-wrapper-row-item .body .flex-col {
+  flex-direction: column;
+}
+.footer .footer-wrapper-row-item .body .flex {
+  display: flex;
+}
+.footer .footer-wrapper-row-item .body .download-app img {
+  cursor: pointer;
+  width: 150px;
+  height: 48px;
+}
+.footer .footer-wrapper-row-item .body iframe.map {
+  height: 180px !important;
+}
+
+.w-\[40\%\] {
+  width: 40%;
+}
+
+.w-\[15\%\] {
+  width: 15%;
+}
+
+.w-\[20\%\] {
+  width: 20%;
+}
+
+.w-\[25\%\] {
+  width: 25%;
+}/*# sourceMappingURL=footer.css.map */

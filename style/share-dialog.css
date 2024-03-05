@@ -1,0 +1,143 @@
+.share-dialog {
+  position: fixed;
+  top: -150%;
+  left: 50%;
+  width: 100%;
+  height: 100%;
+  z-index: 9999;
+  opacity: 0;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1019607843);
+  transform: translate(-50%, -50%) scale(1.2);
+  transition: top 0s 0.2s ease-in-out, opacity 0.2s 0s ease-in-out, transform 0.2s 0s ease-in-out;
+}
+
+.share-dialog.active {
+  top: 50%;
+  opacity: 1;
+  transform: translate(-50%, -50%) scale(1);
+  transition: top 0s 0s ease-in-out, opacity 0.2s 0s ease-in-out, transform 0.2s 0s ease-in-out;
+}
+
+.share-dialog-overlay {
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  background: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  overflow: hidden;
+}
+
+.share-dialog-content {
+  position: absolute;
+  z-index: 9999999;
+  transform: translate(-50%, -50%);
+  background: #fff;
+  padding: 25px;
+  border-radius: 15px;
+  max-width: 380px;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1019607843);
+}
+.share-dialog-content header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #ebedf9;
+}
+.share-dialog-content header span {
+  font-size: 18px;
+  font-weight: 600;
+}
+.share-dialog-content header .close {
+  color: #878787;
+  font-size: 17px;
+  background: #f2f3fb;
+  height: 33px;
+  width: 33px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  border-radius: 50%;
+  justify-content: center;
+  transition: all 0.3s ease-in-out;
+}
+.share-dialog-content .content {
+  margin: 20px 0;
+}
+.share-dialog-content .content p {
+  font-size: 16px;
+}
+.share-dialog-content .content .icons {
+  display: grid;
+  grid-auto-flow: column;
+  place-items: flex-start;
+  place-content: center;
+  gap: 10px;
+  margin: 20px 0;
+}
+.share-dialog-content .content .icons a.facebook {
+  color: #3b5998;
+  border-color: #dfe3ee;
+}
+.share-dialog-content .content .icons a {
+  height: 40px;
+  width: 40px;
+  font-size: 20px;
+  text-decoration: none;
+  border: 1px solid transparent;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.share-dialog-content .content .icons a.telegram {
+  color: #08c;
+  border-color: #b3e6ff;
+}
+.share-dialog-content .content .icons a.twitter {
+  color: #1da1f2;
+  border-color: #dfe3ee;
+}
+.share-dialog-content .content .field {
+  margin-top: 20px;
+  padding: 0 10px;
+  height: 45px;
+  border-radius: 10px;
+  border: 1px solid #e1e1e1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  transition: border-color 0.1s linear;
+}
+.share-dialog-content .content .field svg {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+.share-dialog-content .content .field input {
+  width: 70%;
+  height: 100%;
+  border: none;
+  outline: none;
+  font-size: 12px;
+}
+
+.share-dialog-content .content .field button {
+  background: #fff;
+  padding: 0 15px;
+  width: 30%;
+  height: 30px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.0509803922) 0 6px 24px, rgba(0, 0, 0, 0.0784313725) 0 0 0 1px;
+  border-radius: 7px;
+  font-size: 14px;
+}/*# sourceMappingURL=share-dialog.css.map */
