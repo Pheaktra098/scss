@@ -55,6 +55,7 @@
   justify-content: space-between;
   height: 35px;
   width: 250px;
+  margin: 0px
 }
 .navbar .container .logo-media .social-media .search form input {
   border: none;
